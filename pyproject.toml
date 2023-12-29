@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytensordock"
+version = "0.1.0"
+authors = [
+  { name="Nishant Gajjar", email="nishantkgajjar@outlook.com" },
+]
+description = "A Python wrapper for TensorDock API"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 6 - Mature"
+]
+
+[project.urls]
+Homepage = "https://github.com/nishantg96/pytensordock"
+Issues = "https://github.com/nishantg96/pytensordock/issues"
