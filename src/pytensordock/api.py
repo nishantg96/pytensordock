@@ -429,5 +429,5 @@ if __name__ == "__main__":
     api_key = "API_KEY"
     api_token = "API_TOKEN"
 
-    wrapper = TensorDockAPIWrapper(api_key=api_key, api_token=api_token, debug=True)
+    wrapper = TensorDockWrapper(api_key=api_key, api_token=api_token, debug=True)
     wrapper.test_authorization()
