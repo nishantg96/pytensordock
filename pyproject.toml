@@ -10,7 +10,7 @@ authors = [
 ]
 description = "A Python wrapper for TensorDock API"
 readme = "README.md"
-requires-python = ">=3.6"
+requires-python = ">=3.7"
 dependencies = [
   "requests",
   
