@@ -3,7 +3,7 @@ import requests
 from typing import Optional, Dict, Any
 
 
-class TensorDockAPIWrapper:
+class TensorDockWrapper:
     def __init__(self, api_key: str, api_token: str, debug: bool = False):
         """Initialize the TensorDockAPIWrapper.
 
