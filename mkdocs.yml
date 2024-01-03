@@ -1,0 +1,42 @@
+site_name: PyTensordock Documentation
+site_author: nishant96
+repo_name: nishantg96/pytensordock
+repo_url: https://github.com/nishantg96/pytensordock
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/git-alt
+  font: 
+    text: JetBrains
+    code: JetBrains Mono
+  locale: en
+  include_sidebar: false
+
+markdown_extensions:
+- attr_list
+- admonition
+- callouts
+- footnotes
+- pymdownx.details
+
+plugins:
+  - search
+  - tags
+  - mkapi:
+      src_dirs: [src]
+  - git-authors
+  - git-committers:
+        repository: nishantg96/pytensordock
+        branch: main
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+nav:
+    - API: index.md
+            
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: 'https://github.com/nishantg96/pytensordock'
