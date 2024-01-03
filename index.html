@@ -7,6 +7,8 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
+        <meta name="author" content="nishant96">
+      
       
       
       
@@ -34,12 +36,16 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"JetBrains";--md-code-font:"JetBrains Mono"}</style>
       
     
     
-      <link rel="stylesheet" href="assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.1/css/all.css">
+    
+      <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+    
+      <link rel="stylesheet" href="css/mkapi-common.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -146,6 +152,18 @@
 </div>
     
     
+      <div class="md-header__source">
+        <a href="https://github.com/nishantg96/pytensordock" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nishantg96/pytensordock
+  </div>
+</a>
+      </div>
+    
   </nav>
   
 </header>
@@ -179,6 +197,18 @@
     </a>
     PyTensordock Documentation
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nishantg96/pytensordock" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nishantg96/pytensordock
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -235,7 +265,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapper" class="md-nav__link">
     <span class="md-ellipsis">
       TensorDockWrapper
     </span>
@@ -245,135 +275,126 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.__init__" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperstop_server" class="md-nav__link">
     <span class="md-ellipsis">
-      __init__()
+      stop_server
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.delete_server" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperstart_server" class="md-nav__link">
     <span class="md-ellipsis">
-      delete_server()
+      start_server
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.deploy_machine" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrappermodify_server" class="md-nav__link">
     <span class="md-ellipsis">
-      deploy_machine()
+      modify_server
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.get_specific_hostnode" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperdelete_server" class="md-nav__link">
     <span class="md-ellipsis">
-      get_specific_hostnode()
+      delete_server
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.get_vm_details" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperlist_virtual_machines" class="md-nav__link">
     <span class="md-ellipsis">
-      get_vm_details()
+      list_virtual_machines
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.list_authorizations" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperget_vm_details" class="md-nav__link">
     <span class="md-ellipsis">
-      list_authorizations()
+      get_vm_details
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.list_available_hostnodes" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrappersoft_validate_new_spot_instance" class="md-nav__link">
     <span class="md-ellipsis">
-      list_available_hostnodes()
+      soft_validate_new_spot_instance
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.list_virtual_machines" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrappersoft_validate_existing_spot_instance" class="md-nav__link">
     <span class="md-ellipsis">
-      list_virtual_machines()
+      soft_validate_existing_spot_instance
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.modify_server" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperdeploy_machine" class="md-nav__link">
     <span class="md-ellipsis">
-      modify_server()
+      deploy_machine
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.retrieve_balance" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperlist_available_hostnodes" class="md-nav__link">
     <span class="md-ellipsis">
-      retrieve_balance()
+      list_available_hostnodes
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.soft_validate_existing_spot_instance" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperlist_authorizations" class="md-nav__link">
     <span class="md-ellipsis">
-      soft_validate_existing_spot_instance()
+      list_authorizations
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.soft_validate_new_spot_instance" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperretrieve_balance" class="md-nav__link">
     <span class="md-ellipsis">
-      soft_validate_new_spot_instance()
+      retrieve_balance
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.start_server" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrappertest_authorization" class="md-nav__link">
     <span class="md-ellipsis">
-      start_server()
+      test_authorization
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.stop_server" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperget_specific_hostnode" class="md-nav__link">
     <span class="md-ellipsis">
-      stop_server()
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.test_authorization" class="md-nav__link">
-    <span class="md-ellipsis">
-      test_authorization()
+      get_specific_hostnode
     </span>
   </a>
   
@@ -419,7 +440,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapper" class="md-nav__link">
     <span class="md-ellipsis">
       TensorDockWrapper
     </span>
@@ -429,135 +450,126 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.__init__" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperstop_server" class="md-nav__link">
     <span class="md-ellipsis">
-      __init__()
+      stop_server
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.delete_server" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperstart_server" class="md-nav__link">
     <span class="md-ellipsis">
-      delete_server()
+      start_server
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.deploy_machine" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrappermodify_server" class="md-nav__link">
     <span class="md-ellipsis">
-      deploy_machine()
+      modify_server
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.get_specific_hostnode" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperdelete_server" class="md-nav__link">
     <span class="md-ellipsis">
-      get_specific_hostnode()
+      delete_server
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.get_vm_details" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperlist_virtual_machines" class="md-nav__link">
     <span class="md-ellipsis">
-      get_vm_details()
+      list_virtual_machines
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.list_authorizations" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperget_vm_details" class="md-nav__link">
     <span class="md-ellipsis">
-      list_authorizations()
+      get_vm_details
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.list_available_hostnodes" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrappersoft_validate_new_spot_instance" class="md-nav__link">
     <span class="md-ellipsis">
-      list_available_hostnodes()
+      soft_validate_new_spot_instance
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.list_virtual_machines" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrappersoft_validate_existing_spot_instance" class="md-nav__link">
     <span class="md-ellipsis">
-      list_virtual_machines()
+      soft_validate_existing_spot_instance
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.modify_server" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperdeploy_machine" class="md-nav__link">
     <span class="md-ellipsis">
-      modify_server()
+      deploy_machine
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.retrieve_balance" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperlist_available_hostnodes" class="md-nav__link">
     <span class="md-ellipsis">
-      retrieve_balance()
+      list_available_hostnodes
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.soft_validate_existing_spot_instance" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperlist_authorizations" class="md-nav__link">
     <span class="md-ellipsis">
-      soft_validate_existing_spot_instance()
+      list_authorizations
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.soft_validate_new_spot_instance" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperretrieve_balance" class="md-nav__link">
     <span class="md-ellipsis">
-      soft_validate_new_spot_instance()
+      retrieve_balance
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.start_server" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrappertest_authorization" class="md-nav__link">
     <span class="md-ellipsis">
-      start_server()
+      test_authorization
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.stop_server" class="md-nav__link">
+  <a href="#pytensordockapitensordockwrapperget_specific_hostnode" class="md-nav__link">
     <span class="md-ellipsis">
-      stop_server()
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pytensordock.api.TensorDockWrapper.test_authorization" class="md-nav__link">
-    <span class="md-ellipsis">
-      test_authorization()
+      get_specific_hostnode
     </span>
   </a>
   
@@ -582,1254 +594,726 @@
                 
                   
 
+  
+  
+
 
 <h1 id="pytensordock-api-reference">PyTensordock API Reference</h1>
-
-
-<div class="doc doc-object doc-class">
-
-
-
-
-<h2 id="pytensordock.api.TensorDockWrapper" class="doc doc-heading">
-          <code>pytensordock.api.TensorDockWrapper</code>
-
-
-</h2>
-
-
-  <div class="doc doc-contents first">
-
-
-
+<div class="mkapi-node" id="pytensordock.api.TensorDockWrapper">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object class code top">
+    <div class="mkapi-object-kind class top">class</div>
+    <h2 id="pytensordockapitensordockwrapper" class="mkapi-object-body class top"><code class="mkapi-object-prefix">pytensordock.api.</code><code class="mkapi-object-name">TensorDockWrapper</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">api_key</code>, <code class="mkapi-object-signature">api_token</code>, <code class="mkapi-object-signature">debug=False</code><code class="mkapi-object-parenthesis">)</code></h2>
+  </div>
   
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>Initialize the TensorDockAPIWrapper.</p></div>
+    </div>
+  <div class="mkapi-section parameters">
+      <div class="mkapi-section-name parameters">
+          <span class="mkapi-section-name-body parameters">Parameters</span> 
+        </div>
+      <div class="mkapi-section-body parameters"><ul class="mkapi-items">
+<li><code class="mkapi-item-name">api_key</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">The API key for authentication.</span></li>
 
-  <div class="doc doc-children">
-
-
-
-
-
-
-
-
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.__init__" class="doc doc-heading">
-          <code class="highlight language-python"><span class="fm">__init__</span><span class="p">(</span><span class="n">api_key</span><span class="p">,</span> <span class="n">api_token</span><span class="p">,</span> <span class="n">debug</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></code>
-
-</h3>
+<li><code class="mkapi-item-name">api_token</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">The API token for authentication.</span></li>
 
 
-  <div class="doc doc-contents ">
+
+</ul></div>
+    </div>
+  <div class="mkapi-section methods">
+      <div class="mkapi-section-name methods">
+          <span class="mkapi-section-name-body methods">Methods</span> 
+        </div>
+      <div class="mkapi-section-body methods"><ul class="mkapi-items">
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.delete_server">delete_server</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">server_uuid</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Create a request to delete a server.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.deploy_machine">deploy_machine</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">name</code>, <code class="mkapi-object-signature">gpu_count</code>, <code class="mkapi-object-signature">gpu_model</code>, <code class="mkapi-object-signature">vcpus</code>, <code class="mkapi-object-signature">ram</code>, <code class="mkapi-object-signature">external_ports</code>, <code class="mkapi-object-signature">internal_ports</code>, <code class="mkapi-object-signature">hostnode</code>, <code class="mkapi-object-signature">storage</code>, <code class="mkapi-object-signature">operating_system</code>, <code class="mkapi-object-signature">password</code>, <code class="mkapi-object-signature">deployment_type</code>, <code class="mkapi-object-signature">cpu_model</code>, <code class="mkapi-object-signature">location</code>, <code class="mkapi-object-signature">cloudinit_script</code>, <code class="mkapi-object-signature">price_type</code>, <code class="mkapi-object-signature">price</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict(str: any))</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">This endpoint allows a single deployment of a machine, based on parameters you control. Pass in, via the REST body, the following variables., as shown with some examples</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.get_specific_hostnode">get_specific_hostnode</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">id</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Instead of returning all available hostnodes, you can also return the information of a specific one based on its UUID.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.get_vm_details">get_vm_details</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">server_uuid</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Retrieve the details of a specific virtual machine.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.list_authorizations">list_authorizations</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict(str: any))</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Get a list of all authorizations.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.list_available_hostnodes">list_available_hostnodes</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">min_vcpus</code>, <code class="mkapi-object-signature">min_ram</code>, <code class="mkapi-object-signature">min_storage</code>, <code class="mkapi-object-signature">min_vram</code>, <code class="mkapi-object-signature">min_gpu_count</code>, <code class="mkapi-object-signature">requires_rtx</code>, <code class="mkapi-object-signature">requires_gtx</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">This gets a list of all available hostnodes and stock for GPUs. These hostnodes are categorized as "local storage". "Network storage" GPUs can be provisioned by following the instructions listed under the deployment endpoint. You will need to keep track of the GPU model and available CPU/RAM for the deployment step. All params are optional, but can be added to filter for certain hostnodes.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.list_virtual_machines">list_virtual_machines</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">List all current virtual machines registered under an organization.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.modify_server">modify_server</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">server_uuid</code>, <code class="mkapi-object-signature">gpu_model</code>, <code class="mkapi-object-signature">gpu_count</code>, <code class="mkapi-object-signature">ram</code>, <code class="mkapi-object-signature">vcpus</code>, <code class="mkapi-object-signature">storage</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Modify the specifications of a virtual machine. Your virtual machine must be of type "network storage" and stopped before modifying.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.retrieve_balance">retrieve_balance</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Through this endpoint, you can easily retrieve your current balance and spending rate to monitor your balance.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.soft_validate_existing_spot_instance">soft_validate_existing_spot_instance</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">server</code>, <code class="mkapi-object-signature">price</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">To validate if an existing VM, modified to this price, will succeed, you can send this request.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.soft_validate_new_spot_instance">soft_validate_new_spot_instance</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">gpu_count</code>, <code class="mkapi-object-signature">gpu_model</code>, <code class="mkapi-object-signature">vcpus</code>, <code class="mkapi-object-signature">hostnode</code>, <code class="mkapi-object-signature">ram</code>, <code class="mkapi-object-signature">storage</code>, <code class="mkapi-object-signature">price</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">To validate if an interruptible instance of a given price will succeed, you can send this request.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.start_server">start_server</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">vm_uuid</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Create a request to start a server on an authorization.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.stop_server">stop_server</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">server_uuid</code>, <code class="mkapi-object-signature">disassociate_resources</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Create a request to stop a server on an authorization. If the server is stopped without releasing the GPU, it will be billed at the same rate as a running server. If the GPU is released, it will only be billed for the storage costs.</span></li>
+
+<li class="method"><code class="mkapi-item-name"><a href="#pytensordock.api.TensorDockWrapper.test_authorization">test_authorization</a></code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-parenthesis">)</code>
+<span class="mkapi-item-type">(dict)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Here you can test that an authorization is registered and working.</span></li>
+
+
+</ul></div>
+    </div>
+  </div>
+
+  <div class="mkapi-members">
   
-      <p>Initialize the TensorDockAPIWrapper.</p>
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.stop_server">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrapperstop_server" class="mkapi-object-body method"><code class="mkapi-object-name">stop_server</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">server_uuid</code>, <code class="mkapi-object-signature">disassociate_resources=True</code><code class="mkapi-object-parenthesis">)</code></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>Create a request to stop a server on an authorization. If the server is stopped without releasing the GPU, it will be billed at the same rate as a running server. If the GPU is released, it will only be billed for the storage costs.</p></div>
+    </div>
+  <div class="mkapi-section parameters">
+      <div class="mkapi-section-name parameters">
+          <span class="mkapi-section-name-body parameters">Parameters</span> 
+        </div>
+      <div class="mkapi-section-body parameters"><ul class="mkapi-items">
+<li><code class="mkapi-item-name">server_uuid</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">The UUID of the server to stop.</span></li>
+
+<li><code class="mkapi-item-name">disassociate_resources</code>
+<span class="mkapi-item-type">(bool)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Optional - set to "True" if you want to release the GPU when stopping the VM.</span></li>
 
 
-
-  <p><strong>Parameters:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><code>api_key</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The API key for authentication.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>api_token</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The API token for authentication.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
+</ul></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
   </div>
 
 </div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.delete_server" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">delete_server</span><span class="p">(</span><span class="n">server_uuid</span><span class="p">)</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
+    </div>
   
-      <p>Create a request to delete a server.</p>
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.start_server">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrapperstart_server" class="mkapi-object-body method"><code class="mkapi-object-name">start_server</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">vm_uuid</code><code class="mkapi-object-parenthesis">)</code></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>Create a request to start a server on an authorization.</p></div>
+    </div>
+  <div class="mkapi-section parameters">
+      <div class="mkapi-section-name parameters">
+          <span class="mkapi-section-name-body parameters">Parameters</span> 
+        </div>
+      <div class="mkapi-section-body parameters"><ul class="mkapi-items">
+<li><code class="mkapi-item-name">vm_uuid</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">The UUID of the virtual machine to start.</span></li>
 
 
-
-  <p><strong>Parameters:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><code>server_uuid</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The UUID of the virtual machine to delete.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
+</ul></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
   </div>
 
 </div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.deploy_machine" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">deploy_machine</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">gpu_count</span><span class="p">,</span> <span class="n">gpu_model</span><span class="p">,</span> <span class="n">vcpus</span><span class="p">,</span> <span class="n">ram</span><span class="p">,</span> <span class="n">external_ports</span><span class="p">,</span> <span class="n">internal_ports</span><span class="p">,</span> <span class="n">hostnode</span><span class="p">,</span> <span class="n">storage</span><span class="p">,</span> <span class="n">operating_system</span><span class="p">,</span> <span class="n">password</span><span class="p">,</span> <span class="n">deployment_type</span><span class="o">=</span><span class="s1">&#39;local&#39;</span><span class="p">,</span> <span class="n">cpu_model</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">location</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">cloudinit_script</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">price_type</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">price</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
+    </div>
   
-      <pre><code>    This endpoint allows a single deployment of a machine, based on parameters you control. Pass in, via the REST body, the following variables., as shown with some examples
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.modify_server">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrappermodify_server" class="mkapi-object-body method"><code class="mkapi-object-name">modify_server</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">server_uuid</code>, <code class="mkapi-object-signature">gpu_model</code>, <code class="mkapi-object-signature">gpu_count</code>, <code class="mkapi-object-signature">ram</code>, <code class="mkapi-object-signature">vcpus</code>, <code class="mkapi-object-signature">storage</code><code class="mkapi-object-parenthesis">)</code></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>Modify the specifications of a virtual machine. Your virtual machine must be of type "network storage" and stopped before modifying.</p></div>
+    </div>
+  <div class="mkapi-section parameters">
+      <div class="mkapi-section-name parameters">
+          <span class="mkapi-section-name-body parameters">Parameters</span> 
+        </div>
+      <div class="mkapi-section-body parameters"><ul class="mkapi-items">
+<li><code class="mkapi-item-name">server_uuid</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">The UUID of the virtual machine to modify.</span></li>
 
-    Ports should be sent as a list structed with curly braces with commas and spaces as separators of the ports themselves. The first index of the externally requested port will forward into the first index of the internally requested port, and so on... You can view available ports for each machine through the hostnodes list API.
+<li><code class="mkapi-item-name">gpu_model</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">You can get available GPU models on a hostnode from the hostnodes list API endpoint. Examples: geforcertx3090-pcie-24gb, rtxa6000-pcie-48gb, etc.</span></li>
 
-    Args:
-        name (str): Name of your VM to be displayed in the dashboard
-        gpu_count (int): Number of GPUs.
-        gpu_model (str): You can get available GPU models on a hostnode from the hostnodes list API endpoint. Examples: geforcertx3090-pcie-24gb, rtxa6000-pcie-48gb, etc.
-        vcpus (int): Number of vCPUs.
-        ram (int): RAM amount.
-        external_ports (list): External port mappings.
-        internal_ports (list): Internal port mappings.
-        hostnode (str): Hostnode ID.
-        storage (int): Storage amount.
-        operating_system (str): Operating system.
-        password (str): Password for the virtual machine.
-        deployment_type (str): Optional field to specify either a "network" or "local" deployment. For CPU-only deployments, use "network". Defaults to "local".
-        cpu_model (str): Required if deploying a CPU-only server.
-        location (str): Required if deployment type is "network". Can be either "New York City, New York, United States", "Chicago, Illinois, United States", or "Las Vegas, Nevada, United States".
-        cloudinit_script (str): String of text to append to our cloud-init script, with newlines substituted for
+<li><code class="mkapi-item-name">gpu_count</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Number of GPUs.</span></li>
+
+<li><code class="mkapi-item-name">ram</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">RAM amount.</span></li>
+
+<li><code class="mkapi-item-name">vcpus</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Number of vCPUs.</span></li>
+
+<li><code class="mkapi-item-name">storage</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Storage amount.</span></li>
+
+
+</ul></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
+  </div>
+
+</div>
+    </div>
+  
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.delete_server">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrapperdelete_server" class="mkapi-object-body method"><code class="mkapi-object-name">delete_server</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">server_uuid</code><code class="mkapi-object-parenthesis">)</code></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>Create a request to delete a server.</p></div>
+    </div>
+  <div class="mkapi-section parameters">
+      <div class="mkapi-section-name parameters">
+          <span class="mkapi-section-name-body parameters">Parameters</span> 
+        </div>
+      <div class="mkapi-section-body parameters"><ul class="mkapi-items">
+<li><code class="mkapi-item-name">server_uuid</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">The UUID of the virtual machine to delete.</span></li>
+
+
+</ul></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
+  </div>
+
+</div>
+    </div>
+  
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.list_virtual_machines">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrapperlist_virtual_machines" class="mkapi-object-body method"><code class="mkapi-object-name">list_virtual_machines</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-parenthesis">)</code></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>List all current virtual machines registered under an organization.</p></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
+  </div>
+
+</div>
+    </div>
+  
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.get_vm_details">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrapperget_vm_details" class="mkapi-object-body method"><code class="mkapi-object-name">get_vm_details</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">server_uuid</code><code class="mkapi-object-parenthesis">)</code></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>Retrieve the details of a specific virtual machine.</p></div>
+    </div>
+  <div class="mkapi-section parameters">
+      <div class="mkapi-section-name parameters">
+          <span class="mkapi-section-name-body parameters">Parameters</span> 
+        </div>
+      <div class="mkapi-section-body parameters"><ul class="mkapi-items">
+<li><code class="mkapi-item-name">server_uuid</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">The UUID of the virtual machine to retrieve details.</span></li>
+
+
+</ul></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
+  </div>
+
+</div>
+    </div>
+  
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.soft_validate_new_spot_instance">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrappersoft_validate_new_spot_instance" class="mkapi-object-body method"><code class="mkapi-object-name">soft_validate_new_spot_instance</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">gpu_count</code>, <code class="mkapi-object-signature">gpu_model</code>, <code class="mkapi-object-signature">vcpus</code>, <code class="mkapi-object-signature">hostnode</code>, <code class="mkapi-object-signature">ram</code>, <code class="mkapi-object-signature">storage</code>, <code class="mkapi-object-signature">price</code><code class="mkapi-object-parenthesis">)</code></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>To validate if an interruptible instance of a given price will succeed, you can send this request.</p>
+<p>If the "success" field is false, then you must bid higher and confirm that enough resources are available. If the "success" field is true, then a deployment of the resources you selected will succeed.</p></div>
+    </div>
+  <div class="mkapi-section parameters">
+      <div class="mkapi-section-name parameters">
+          <span class="mkapi-section-name-body parameters">Parameters</span> 
+        </div>
+      <div class="mkapi-section-body parameters"><ul class="mkapi-items">
+<li><code class="mkapi-item-name">gpu_count</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Number of GPUs.</span></li>
+
+<li><code class="mkapi-item-name">gpu_model</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">GPU model.</span></li>
+
+<li><code class="mkapi-item-name">vcpus</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Number of vCPUs.</span></li>
+
+<li><code class="mkapi-item-name">hostnode</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Hostnode ID.</span></li>
+
+<li><code class="mkapi-item-name">ram</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">RAM amount.</span></li>
+
+<li><code class="mkapi-item-name">storage</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Storage amount.</span></li>
+
+<li><code class="mkapi-item-name">price</code>
+<span class="mkapi-item-type">(float)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Bid price for the spot instance.</span></li>
+
+
+</ul></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
+  </div>
+
+</div>
+    </div>
+  
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.soft_validate_existing_spot_instance">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrappersoft_validate_existing_spot_instance" class="mkapi-object-body method"><code class="mkapi-object-name">soft_validate_existing_spot_instance</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">server</code>, <code class="mkapi-object-signature">price</code><code class="mkapi-object-parenthesis">)</code></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>To validate if an existing VM, modified to this price, will succeed, you can send this request.</p>
+<p>If the "success" field is false, then you must bid higher and confirm that enough resources are available. If the "success" field is true, then your VM will start with the new price (or your VM will continue to run at the new price).</p></div>
+    </div>
+  <div class="mkapi-section parameters">
+      <div class="mkapi-section-name parameters">
+          <span class="mkapi-section-name-body parameters">Parameters</span> 
+        </div>
+      <div class="mkapi-section-body parameters"><ul class="mkapi-items">
+<li><code class="mkapi-item-name">server</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">The UUID of the virtual machine to validate.</span></li>
+
+<li><code class="mkapi-item-name">price</code>
+<span class="mkapi-item-type">(float)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Bid price for the spot instance.</span></li>
+
+
+</ul></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
+  </div>
+
+</div>
+    </div>
+  
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.deploy_machine">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrapperdeploy_machine" class="mkapi-object-body method"><code class="mkapi-object-name">deploy_machine</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">name</code>, <code class="mkapi-object-signature">gpu_count</code>, <code class="mkapi-object-signature">gpu_model</code>, <code class="mkapi-object-signature">vcpus</code>, <code class="mkapi-object-signature">ram</code>, <code class="mkapi-object-signature">external_ports</code>, <code class="mkapi-object-signature">internal_ports</code>, <code class="mkapi-object-signature">hostnode</code>, <code class="mkapi-object-signature">storage</code>, <code class="mkapi-object-signature">operating_system</code>, <code class="mkapi-object-signature">password</code>, <code class="mkapi-object-signature">deployment_type=&#39;local&#39;</code>, <code class="mkapi-object-signature">cpu_model=None</code>, <code class="mkapi-object-signature">location=None</code>, <code class="mkapi-object-signature">cloudinit_script=None</code>, <code class="mkapi-object-signature">price_type=None</code>, <code class="mkapi-object-signature">price=None</code><code class="mkapi-object-parenthesis">)</code><span class="mkapi-item-type"> &#x2192; dict(str: any)</span></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>This endpoint allows a single deployment of a machine, based on parameters you control. Pass in, via the REST body, the following variables., as shown with some examples</p>
+<p>Ports should be sent as a list structed with curly braces with commas and spaces as separators of the ports themselves. The first index of the externally requested port will forward into the first index of the internally requested port, and so on... You can view available ports for each machine through the hostnodes list API.</p>
+<p>Args:
+    name (str): Name of your VM to be displayed in the dashboard
+    gpu_count (int): Number of GPUs.
+    gpu_model (str): You can get available GPU models on a hostnode from the hostnodes list API endpoint. Examples: geforcertx3090-pcie-24gb, rtxa6000-pcie-48gb, etc.
+    vcpus (int): Number of vCPUs.
+    ram (int): RAM amount.
+    external_ports (list): External port mappings.
+    internal_ports (list): Internal port mappings.
+    hostnode (str): Hostnode ID.
+    storage (int): Storage amount.
+    operating_system (str): Operating system.
+    password (str): Password for the virtual machine.
+    deployment_type (str): Optional field to specify either a "network" or "local" deployment. For CPU-only deployments, use "network". Defaults to "local".
+    cpu_model (str): Required if deploying a CPU-only server.
+    location (str): Required if deployment type is "network". Can be either "New York City, New York, United States", "Chicago, Illinois, United States", or "Las Vegas, Nevada, United States".
+    cloudinit_script (str): String of text to append to our cloud-init script, with newlines substituted for</p>
+<pre><code>price_type (str): Optional field to deploy a spot instance.
+price (float): Optional field to set bid amount for spot deployment.
 </code></pre>
-<p>.
-            price_type (str): Optional field to deploy a spot instance.
-            price (float): Optional field to set bid amount for spot deployment.</p>
-<pre><code>    Returns:
-        dict: The JSON response.
-</code></pre>
-
+<p>Returns:
+    dict: The JSON response.</p></div>
+    </div>
   </div>
 
 </div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.get_specific_hostnode" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">get_specific_hostnode</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
+    </div>
   
-      <p>Instead of returning all available hostnodes, you can also return the information of a specific one based on its UUID.</p>
-
-
-
-  <p><strong>Parameters:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><code>id</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The ID of the hostnode.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.list_available_hostnodes">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrapperlist_available_hostnodes" class="mkapi-object-body method"><code class="mkapi-object-name">list_available_hostnodes</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">min_vcpus=None</code>, <code class="mkapi-object-signature">min_ram=None</code>, <code class="mkapi-object-signature">min_storage=None</code>, <code class="mkapi-object-signature">min_vram=None</code>, <code class="mkapi-object-signature">min_gpu_count=None</code>, <code class="mkapi-object-signature">requires_rtx=None</code>, <code class="mkapi-object-signature">requires_gtx=None</code><code class="mkapi-object-parenthesis">)</code></h3>
   </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.get_vm_details" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">get_vm_details</span><span class="p">(</span><span class="n">server_uuid</span><span class="p">)</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
   
-      <p>Retrieve the details of a specific virtual machine.</p>
-
-
-
-  <p><strong>Parameters:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><code>server_uuid</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The UUID of the virtual machine to retrieve details.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-  </div>
-
 </div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.list_authorizations" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">list_authorizations</span><span class="p">()</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
-  
-      <p>Get a list of all authorizations.</p>
-
-  </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.list_available_hostnodes" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">list_available_hostnodes</span><span class="p">(</span><span class="n">min_vcpus</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">min_ram</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">min_storage</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">min_vram</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">min_gpu_count</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">requires_rtx</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">requires_gtx</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
-  
-      <p>This gets a list of all available hostnodes and stock for GPUs. These hostnodes are categorized as "local storage". "Network storage" GPUs can be provisioned by following the instructions listed under the deployment endpoint. You will need to keep track of the GPU model and available CPU/RAM for the deployment step. All params are optional, but can be added to filter for certain hostnodes.</p>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>This gets a list of all available hostnodes and stock for GPUs. These hostnodes are categorized as "local storage". "Network storage" GPUs can be provisioned by following the instructions listed under the deployment endpoint. You will need to keep track of the GPU model and available CPU/RAM for the deployment step. All params are optional, but can be added to filter for certain hostnodes.</p>
 <p>Note: If you include your organization's API key and token in the request, like such:</p>
 <p>https://marketplace.tensordock.com/api/v0/client/deploy/hostnodes?api_key=KEY&amp;api_token=TOKEN</p>
-<p>Hostnodes that are reserved for your organization will also show up in the list.</p>
+<p>Hostnodes that are reserved for your organization will also show up in the list.</p></div>
+    </div>
+  <div class="mkapi-section parameters">
+      <div class="mkapi-section-name parameters">
+          <span class="mkapi-section-name-body parameters">Parameters</span> 
+        </div>
+      <div class="mkapi-section-body parameters"><ul class="mkapi-items">
+<li><code class="mkapi-item-name">min_vcpus</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Minimum number of vCPUs.</span></li>
+
+<li><code class="mkapi-item-name">min_ram</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Minimum amount of RAM.</span></li>
+
+<li><code class="mkapi-item-name">min_storage</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Minimum SSD storage amount in GB.</span></li>
+
+<li><code class="mkapi-item-name">min_vram</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Minimum VRAM amount.</span></li>
+
+<li><code class="mkapi-item-name">min_gpu_count</code>
+<span class="mkapi-item-type">(int)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Minimum number of GPUs.</span></li>
+
+<li><code class="mkapi-item-name">requires_rtx</code>
+<span class="mkapi-item-type">(bool)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Requires RTX GPU.</span></li>
+
+<li><code class="mkapi-item-name">requires_gtx</code>
+<span class="mkapi-item-type">(bool)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">Requires GTX GPU.</span></li>
 
 
-
-  <p><strong>Parameters:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><code>min_vcpus</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Minimum number of vCPUs.</p>
-            </div>
-          </td>
-          <td>
-                <code>None</code>
-          </td>
-        </tr>
-        <tr>
-          <td><code>min_ram</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Minimum amount of RAM.</p>
-            </div>
-          </td>
-          <td>
-                <code>None</code>
-          </td>
-        </tr>
-        <tr>
-          <td><code>min_storage</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Minimum SSD storage amount in GB.</p>
-            </div>
-          </td>
-          <td>
-                <code>None</code>
-          </td>
-        </tr>
-        <tr>
-          <td><code>min_vram</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Minimum VRAM amount.</p>
-            </div>
-          </td>
-          <td>
-                <code>None</code>
-          </td>
-        </tr>
-        <tr>
-          <td><code>min_gpu_count</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Minimum number of GPUs.</p>
-            </div>
-          </td>
-          <td>
-                <code>None</code>
-          </td>
-        </tr>
-        <tr>
-          <td><code>requires_rtx</code></td>
-          <td>
-                <code>bool</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Requires RTX GPU.</p>
-            </div>
-          </td>
-          <td>
-                <code>None</code>
-          </td>
-        </tr>
-        <tr>
-          <td><code>requires_gtx</code></td>
-          <td>
-                <code>bool</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Requires GTX GPU.</p>
-            </div>
-          </td>
-          <td>
-                <code>None</code>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
+</ul></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
   </div>
 
 </div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.list_virtual_machines" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">list_virtual_machines</span><span class="p">()</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
+    </div>
   
-      <p>List all current virtual machines registered under an organization.</p>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.list_authorizations">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrapperlist_authorizations" class="mkapi-object-body method"><code class="mkapi-object-name">list_authorizations</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-parenthesis">)</code><span class="mkapi-item-type"> &#x2192; dict(str: any)</span></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>Get a list of all authorizations.</p></div>
+    </div>
   </div>
 
 </div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.modify_server" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">modify_server</span><span class="p">(</span><span class="n">server_uuid</span><span class="p">,</span> <span class="n">gpu_model</span><span class="p">,</span> <span class="n">gpu_count</span><span class="p">,</span> <span class="n">ram</span><span class="p">,</span> <span class="n">vcpus</span><span class="p">,</span> <span class="n">storage</span><span class="p">)</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
+    </div>
   
-      <p>Modify the specifications of a virtual machine. Your virtual machine must be of type "network storage" and stopped before modifying.</p>
-
-
-
-  <p><strong>Parameters:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><code>server_uuid</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The UUID of the virtual machine to modify.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>gpu_model</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>You can get available GPU models on a hostnode from the hostnodes list API endpoint. Examples: geforcertx3090-pcie-24gb, rtxa6000-pcie-48gb, etc.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>gpu_count</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Number of GPUs.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>ram</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>RAM amount.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>vcpus</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Number of vCPUs.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>storage</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Storage amount.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.retrieve_balance">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrapperretrieve_balance" class="mkapi-object-body method"><code class="mkapi-object-name">retrieve_balance</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-parenthesis">)</code></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>Through this endpoint, you can easily retrieve your current balance and spending rate to monitor your balance.</p>
+<p>Remember, once your balance runs out, your servers are automatically deleted — so please constantly monitor and understand your billing situation to ensure that this does not occur.</p></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
   </div>
 
 </div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.retrieve_balance" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">retrieve_balance</span><span class="p">()</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
+    </div>
   
-      <p>Through this endpoint, you can easily retrieve your current balance and spending rate to monitor your balance.</p>
-<p>Remember, once your balance runs out, your servers are automatically deleted — so please constantly monitor and understand your billing situation to ensure that this does not occur.</p>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.test_authorization">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrappertest_authorization" class="mkapi-object-body method"><code class="mkapi-object-name">test_authorization</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-parenthesis">)</code></h3>
   </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.soft_validate_existing_spot_instance" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">soft_validate_existing_spot_instance</span><span class="p">(</span><span class="n">server</span><span class="p">,</span> <span class="n">price</span><span class="p">)</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
   
-      <p>To validate if an existing VM, modified to this price, will succeed, you can send this request.</p>
-<p>If the "success" field is false, then you must bid higher and confirm that enough resources are available. If the "success" field is true, then your VM will start with the new price (or your VM will continue to run at the new price).</p>
-
-
-
-  <p><strong>Parameters:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><code>server</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The UUID of the virtual machine to validate.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>price</code></td>
-          <td>
-                <code>float</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Bid price for the spot instance.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-  </div>
-
 </div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.soft_validate_new_spot_instance" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">soft_validate_new_spot_instance</span><span class="p">(</span><span class="n">gpu_count</span><span class="p">,</span> <span class="n">gpu_model</span><span class="p">,</span> <span class="n">vcpus</span><span class="p">,</span> <span class="n">hostnode</span><span class="p">,</span> <span class="n">ram</span><span class="p">,</span> <span class="n">storage</span><span class="p">,</span> <span class="n">price</span><span class="p">)</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
-  
-      <p>To validate if an interruptible instance of a given price will succeed, you can send this request.</p>
-<p>If the "success" field is false, then you must bid higher and confirm that enough resources are available. If the "success" field is true, then a deployment of the resources you selected will succeed.</p>
-
-
-
-  <p><strong>Parameters:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><code>gpu_count</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Number of GPUs.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>gpu_model</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>GPU model.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>vcpus</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Number of vCPUs.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>hostnode</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Hostnode ID.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>ram</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>RAM amount.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>storage</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Storage amount.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>price</code></td>
-          <td>
-                <code>float</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Bid price for the spot instance.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-  </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.start_server" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">start_server</span><span class="p">(</span><span class="n">vm_uuid</span><span class="p">)</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
-  
-      <p>Create a request to start a server on an authorization.</p>
-
-
-
-  <p><strong>Parameters:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><code>vm_uuid</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The UUID of the virtual machine to start.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-  </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.stop_server" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">stop_server</span><span class="p">(</span><span class="n">server_uuid</span><span class="p">,</span> <span class="n">disassociate_resources</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
-  
-      <p>Create a request to stop a server on an authorization. If the server is stopped without releasing the GPU, it will be billed at the same rate as a running server. If the GPU is released, it will only be billed for the storage costs.</p>
-
-
-
-  <p><strong>Parameters:</strong></p>
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Default</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td><code>server_uuid</code></td>
-          <td>
-                <code>str</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The UUID of the server to stop.</p>
-            </div>
-          </td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>disassociate_resources</code></td>
-          <td>
-                <code>bool</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>Optional - set to "True" if you want to release the GPU when stopping the VM.</p>
-            </div>
-          </td>
-          <td>
-                <code>True</code>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-
-
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-  </div>
-
-</div>
-
-
-<div class="doc doc-object doc-function">
-
-
-
-
-<h3 id="pytensordock.api.TensorDockWrapper.test_authorization" class="doc doc-heading">
-          <code class="highlight language-python"><span class="n">test_authorization</span><span class="p">()</span></code>
-
-</h3>
-
-
-  <div class="doc doc-contents ">
-  
-      <p>Here you can test that an authorization is registered and working.</p>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>Here you can test that an authorization is registered and working.</p>
 <p>Simply pass in your API key as api_key and API token as api_token, and confirm that we return true!</p>
-<p>We will return an object {"success": true} if your authorization key and token are valid.</p>
+<p>We will return an object {"success": true} if your authorization key and token are valid.</p></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
+  </div>
+
+</div>
+    </div>
+  
+    <div class="mkapi-member">
+      <div class="mkapi-node" id="pytensordock.api.TensorDockWrapper.get_specific_hostnode">
+<div class='mkapi-object-container'>
+  <div class="mkapi-object method code">
+    <div class="mkapi-object-kind method">method</div>
+    <h3 id="pytensordockapitensordockwrapperget_specific_hostnode" class="mkapi-object-body method"><code class="mkapi-object-name">get_specific_hostnode</code><code class="mkapi-object-parenthesis">(</code><code class="mkapi-object-signature">id</code><code class="mkapi-object-parenthesis">)</code></h3>
+  </div>
+  
+</div>
+<div class="mkapi-docstring">
+<div class="mkapi-section">
+      <div class="mkapi-section-body"><p>Instead of returning all available hostnodes, you can also return the information of a specific one based on its UUID.</p></div>
+    </div>
+  <div class="mkapi-section parameters">
+      <div class="mkapi-section-name parameters">
+          <span class="mkapi-section-name-body parameters">Parameters</span> 
+        </div>
+      <div class="mkapi-section-body parameters"><ul class="mkapi-items">
+<li><code class="mkapi-item-name">id</code>
+<span class="mkapi-item-type">(str)</span>
+<span class="mkapi-item-dash">&mdash;</span> <span class="mkapi-item-description">The ID of the hostnode.</span></li>
 
 
+</ul></div>
+    </div>
+  <div class="mkapi-section returns">
+      <div class="mkapi-section-name returns">
+          <span class="mkapi-section-name-body returns">Returns</span> <span class="mkapi-item-type">(dict)</span>
+        </div>
+      <div class="mkapi-section-body returns"><p>The JSON response.</p></div>
+    </div>
+  </div>
 
-  <p><strong>Returns:</strong></p>
-  <table>
-    <thead>
-      <tr>
-<th>Name</th>        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-<td><code>dict</code></td>          <td>
-                <code><span title="typing.Dict">Dict</span>[str, <span title="typing.Any">Any</span>]</code>
-          </td>
-          <td>
-            <div class="doc-md-description">
-              <p>The JSON response.</p>
-            </div>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
+</div>
+    </div>
+  
   </div>
 
 </div>
 
 
 
-  </div>
-
-  </div>
-
-</div>
 
 
 
 
+  
+    
+  
+  
+    
+  
 
 
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 3, 2024</span>
+  </span>
 
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Created">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 3, 2024</span>
+  </span>
+
+    
+    
+      
+  
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Contributors">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4Z"/></svg>
+      
+    </span>
+    <nav>
+      
+        <a href="mailto:n.gajjar@reply.de">Nishant Gajjar</a>
+    </nav>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    
+      
+  <span class="md-icon" title="Contributors">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
+  </span>
+  <span>GitHub</span>
+
+    
+    <nav>
+      
+        <a href="https://github.com/ngajjar96" class="md-author" title="@ngajjar96">
+          
+          <img src="https://avatars.githubusercontent.com/u/137897465?v=4&size=72" alt="ngajjar96">
+        </a>
+      
+      
+      
+    </nav>
+  </span>
+
+    
+  </aside>
 
 
 
@@ -1859,6 +1343,21 @@
   
 </div>
       
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/nishantg96/pytensordock" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
     </div>
   </div>
 </footer>
@@ -1873,6 +1372,8 @@
     
     
       <script src="assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="js/mkapi.js"></script>
       
     
   </body>
