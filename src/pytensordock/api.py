@@ -275,7 +275,7 @@ class TensorDockWrapper:
             deployment_type (str): Optional field to specify either a "network" or "local" deployment. For CPU-only deployments, use "network". Defaults to "local".
             cpu_model (str): Required if deploying a CPU-only server.
             location (str): Required if deployment type is "network". Can be either "New York City, New York, United States", "Chicago, Illinois, United States", or "Las Vegas, Nevada, United States".
-            cloudinit_script (str): String of text to append to our cloud-init script, with newlines substituted for \n.
+            cloudinit_script (str): String of text to append to our cloud-init script.
             price_type (str): Optional field to deploy a spot instance.
             price (float): Optional field to set bid amount for spot deployment.
         
